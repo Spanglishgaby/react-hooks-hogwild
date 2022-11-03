@@ -1,14 +1,15 @@
 import React from "react";
 import piggy from "../assets/porco.png";
-import hogs from "../porkers_data";
+
 
 const Nav = () => {
 	
-const renderhogs = hogs.map( hog => ({
+const renderhogs = hogs.map( (hog) => ({
+name: hog.name
+image : hog.image
+}))
 
-
-})
-	
+}	
 //  image = hogs.image
 
 	return (
